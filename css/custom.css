@@ -1,5 +1,33 @@
 nav.nav-middle, nav.nav-middle ul li a{
+	height: 30px;
+	line-height: 30px;
+	padding-top: 0px;
+}
+div.navbar-header img {
+		height: 50px;
+		padding-top: 5px;
+		padding-left: 20px;
+	}
+
+@media only screen and (min-width: 768px) {
+	nav.nav-middle, nav.nav-middle ul li a{
 	height: 100px;
 	line-height: 100px;
 	padding-top: 0px;
+	}
 }
+
+div.navbar-header img {
+		height: 80px;
+	}
+
+}
+
+div.carousel {
+	width: 100%;
+	height: 400px;
+	background-image: url("http://placehold.it/768x400.jpg");
+	background-size: cover;
+}
+
+
