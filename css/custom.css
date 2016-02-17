@@ -27,6 +27,11 @@ div.carousel {
 	background-position: center center;
 }
 
+div.featured-block {
+	text-align: center;
+	padding-top: 30px;
+}
+
 @media all and (min-width: 320px) and (max-width:768px) {
 	div.carousel {
 	background-image: url("http://placehold.it/768x400.jpg");
