@@ -6,6 +6,10 @@ div.logo-wrapper {
 	height: 100px;
 }
 
+div.h1 {
+	text-align: left;
+}
+
 nav.nav-middle, nav.nav-middle ul li a{
 	height: 30px;
 	line-height: 30px;
