@@ -2,12 +2,38 @@ body {
 	padding-top: 50px;
 }
 
+p {
+	font-size: 16px;
+}
+
+h4 {
+	font-weight: bold;
+}
+
 div.logo-wrapper {
 	height: 100px;
 }
 
-div.h1 {
+.featured-heading h1 {
 	text-align: left;
+}
+
+.featured-heading h3 {
+	text-align: left;
+}
+
+.featured-heading h3 span {
+	padding: 10px;
+}
+
+div.clients-featured h1 {
+	text-align: center;
+	margin: 70px 0;
+}
+
+div.grey-bg {
+	background-color: #F2F2F2;
+	padding: 50px 0 80px 0;
 }
 
 nav.nav-middle, nav.nav-middle ul li a{
@@ -31,48 +57,195 @@ div.carousel {
 	background-position: center center;
 }
 
+div.jumbotron .container {
+	padding-top: 100px;
+}
+
+div.jumbotron .container h2{
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	padding-bottom: 50px;
+}
+
+div.jumbotron .container p{
+	text-align: center;
+}
+
+div.jumbotron {
+	margin-bottom:0;
+}
+
 div.featured-block {
 	text-align: center;
 	padding-top: 30px;
 }
 
-@media all and (min-width: 320px) and (max-width:768px) {
+div.testimonials  h1{
+	text-align: center;
+	margin: 80px 0;
+}
+
+div.testimonial-row {
+	margin: 50px 0 100px 0;
+}
+
+div.sample-row img{
+	width: 100%;
+}
+
+div.sample-row div {
+	padding: 10px;
+}
+
+div.samples-right h3, div.samples-right p{
+	margin: 50px 0;
+}
+
+.clients-featured .col-md-3 {
+	padding: 20px;
+}
+
+div.clients-featured img {
+	width: 150px !important; 
+	margin: auto !important;
+}
+
+div.featured-block p.lead {
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+	text-transform: uppercase;
+}
+
+div.featured-block h3, div.featured-block p {
+	text-align: left;
+}
+
+.clients-featured {
+	margin-bottom: 50px;
+}
+
+p.giant-text {
+	font-size: 100px;
+	text-align: right;
+	line-height: 90px;
+}
+
+p.small-text {
+	font-size: 22px;
+	text-align: right;
+}
+
+div.quote-left {
+	padding-top: 30px;
+	padding-right: 50px;
+}
+
+div.input-col {
+	padding: 20px;
+	padding-left: 50px;
+}
+
+div.footer-lower {
+	padding-top: 50px;
+}
+
+div.footer-lower .row {
+	padding-bottom: 8px;
+}
+
+footer ul, footer p {
+	font-size: 20px;
+}
+
+footer a, footer li {
+	color: grey;
+	text-decoration: none;
+	padding-bottom: 5px;
+}
+
+footer a:hover {
+	color: grey;
+}
+
+/*==========  Media Queries Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */ 
+@media only screen and (min-width : 320px) {
+
 	div.carousel {
-	background-image: url("http://placehold.it/768x400.jpg");
+	background-image: url("http://placehold.it/768x500.jpg");
 	background-size: cover;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	}
+
 	div.navbar-header img {
-		height: 80px;
+		height: 50px;
 		padding-top: 5px;
 		padding-left: 20px;
 	}
 
 }
 
-@media all and (min-width: 768px) {
-	nav.nav-middle, nav.nav-middle ul li a{
+/* Extra Small Devices, Phones */ 
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+nav.nav-middle, nav.nav-middle ul li a{
 	height: 100px;
 	line-height: 100px;
 	padding-top: 0px;
 	}
 	div.carousel {
-	background-image: url("http://placehold.it/1100x400.jpg");
+	background-image: url("http://placehold.it/1100x500.jpg");
 	background-size: cover;
 	width: 100%;
-	height: 400px;
+	height: 500px;
 	}
 	div.navbar-header img {
 		height: 80px;
 		padding-top: 5px;
 		padding-left: 20px;
 	}
+
+	div.featured-block h3, div.featured-block p {
+		text-align: center;
+	}
+
+
+	div.jumbotron .container h2{
+		text-align: center;
+		font-size: 34px;
+		font-weight: bold;
+		padding-bottom: 50px;
+	}
+
 }
 
+@media only screen and (min-width: 992px) {
 
+	div.jumbotron .container h2{
+		text-align: center;
+		font-size: 40px;
+		font-weight: bold;
+		padding-bottom: 50px;
+	}
 
+}
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
 
+	div.jumbotron .container p{
+		text-align: right;
+		padding-right: 200px;
+	}
 
+}
 
