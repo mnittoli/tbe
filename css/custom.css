@@ -22,6 +22,7 @@ div.logo-wrapper {
 	text-align: left;
 }
 
+
 .featured-heading h3 span {
 	padding: 10px;
 }
@@ -90,6 +91,10 @@ div.testimonial-row {
 	margin: 50px 0 100px 0;
 }
 
+div.testimonials img, div.testimonials p, div.testimonials h4 {
+	text-align: center;
+}
+
 div.sample-row img{
 	width: 100%;
 }
@@ -118,9 +123,11 @@ div.featured-block p.lead {
 	text-transform: uppercase;
 }
 
+
 div.featured-block h3, div.featured-block p {
-	text-align: left;
-}
+		text-align: center;
+	}
+
 
 .clients-featured {
 	margin-bottom: 50px;
@@ -236,6 +243,11 @@ nav.nav-middle, nav.nav-middle ul li a{
 		font-weight: bold;
 		padding-bottom: 50px;
 	}
+
+	div.testimonials img, div.testimonials p, div.testimonials h4 {
+	text-align: left;
+	}
+
 
 }
 
