@@ -91,6 +91,11 @@ div.testimonial-row {
 	margin: 50px 0 100px 0;
 }
 
+div.testimonials img {
+	width: 100px;
+	margin: auto;
+}
+
 div.testimonials img, div.testimonials p, div.testimonials h4 {
 	text-align: center;
 }
@@ -103,12 +108,13 @@ div.sample-row div {
 	padding: 10px;
 }
 
-div.samples-right h3, div.samples-right p{
+div.samples-right h2, div.samples-right p {
+	text-align: center;
 	margin: 50px 0;
 }
 
 .clients-featured .col-md-3 {
-	padding: 20px;
+	padding: 5px;
 }
 
 div.clients-featured img {
@@ -133,15 +139,23 @@ div.featured-block h3, div.featured-block p {
 	margin-bottom: 50px;
 }
 
+.custom-left {
+	float: left;
+}
+
+.custom-right {
+	float: right;
+}
+
 p.giant-text {
 	font-size: 100px;
-	text-align: right;
+	text-align: center;
 	line-height: 90px;
 }
 
 p.small-text {
 	font-size: 22px;
-	text-align: right;
+	text-align: center;
 }
 
 div.quote-left {
@@ -176,6 +190,15 @@ footer a:hover {
 	color: grey;
 }
 
+.center-text {
+	text-align: center;
+}
+
+.center-block {
+	text-align: center;
+}
+
+
 /*==========  Media Queries Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
@@ -198,6 +221,12 @@ footer a:hover {
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+
+	
+
+
+
+
 
 }
 
@@ -233,6 +262,25 @@ nav.nav-middle, nav.nav-middle ul li a{
 		padding-bottom: 50px;
 	}
 
+	.custom-left {
+	float: none;
+	}
+
+	.custom-right {
+	float: none;
+	}
+
+	p.giant-text {
+	font-size: 100px;
+	text-align: center;
+	line-height: 90px;
+	}
+
+	p.small-text {
+	font-size: 22px;
+	text-align: center;
+	}
+
 }
 
 @media only screen and (min-width: 992px) {
@@ -246,6 +294,34 @@ nav.nav-middle, nav.nav-middle ul li a{
 
 	div.testimonials img, div.testimonials p, div.testimonials h4 {
 	text-align: left;
+	}
+
+	div.samples-right h2, div.samples-right p{
+	text-align: left;
+	margin: 50px 0;
+	}
+
+	button.center-block {
+		margin-left: 0px;
+	}
+
+	p.giant-text {
+	font-size: 100px;
+	text-align: right;
+	line-height: 90px;
+	}
+
+	p.small-text {
+	font-size: 22px;
+	text-align: right;
+	}
+
+	.center-text {
+	text-align: left;
+	}
+
+	.btn-footer {
+		float: left;
 	}
 
 
